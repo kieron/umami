@@ -10,7 +10,7 @@ const collectApiEndpoint = process.env.COLLECT_API_ENDPOINT || '';
 const corsMaxAge = process.env.CORS_MAX_AGE || '';
 const defaultLocale = process.env.DEFAULT_LOCALE || '';
 const forceSSL = process.env.FORCE_SSL || '';
-const frameAncestors = process.env.ALLOWED_FRAME_URLS || '';
+const frameAncestors = '*';
 const trackerScriptName = process.env.TRACKER_SCRIPT_NAME || '';
 const trackerScriptURL = process.env.TRACKER_SCRIPT_URL || '';
 
